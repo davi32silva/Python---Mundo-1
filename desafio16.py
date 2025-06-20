@@ -1,4 +1,4 @@
-from math import floor
-num = float(input("Digite um número: "))
-porcao = floor(num)
+from math import trunc
+num = float(input('Digite um número: '))
+porcao = trunc(num)
 print(porcao)
