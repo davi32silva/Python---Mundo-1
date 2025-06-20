@@ -1,2 +1,4 @@
-import emoji
-print(emoji.emojize("Olá, Mundo! :sunglasses:"))
+from math import floor
+num = float(input("Digite um número: "))
+porcao = floor(num)
+print(porcao)
